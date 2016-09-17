@@ -1,0 +1,5 @@
+services:
+    app.service.lunch:
+        class: AppBundle\Service\Lunch
+        arguments:
+            - "@doctrine.orm.entity_manager"
